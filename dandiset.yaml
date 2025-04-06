@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.9/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -19,9 +20,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 54970745645
-  numberOfFiles: 1
-  numberOfSubjects: 1
+  numberOfBytes: 194205289112
+  numberOfFiles: 3
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -30,8 +31,8 @@ assetsSummary:
   variableMeasured:
   - Units
   - ElectrodeGroup
-citation: Eckert, Michael (2025) Septum GABA disruption with DREADDs (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001375/draft
+citation: Eckert, Michael; McNaughton, Bruce; Ferbinteanu, Janina (2025) Septum GABA
+  disruption with DREADDs (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001375/draft
 contributor:
 - affiliation: []
   email: meckert1@uci.edu
@@ -40,18 +41,43 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- awardNumber: NS121764
+  identifier: https://ror.org/05h1kgg64
+  includeInCitation: false
+  name: NIH Brain
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- email: brucemcn@uci.edu
+  includeInCitation: true
+  name: McNaughton, Bruce
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: janina.ferbinteanu@uci.edu
+  includeInCitation: true
+  name: Ferbinteanu, Janina
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 dateCreated: '2025-04-05T16:33:36.070433+00:00'
 description: Pilot study of the effect of disrupting septal gabaergic activity using
   DREADDs on hippocampal and neocortical activity
+ethicsApproval: []
 id: DANDI:001375/draft
 identifier: DANDI:001375
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001375/versions/draft/assets/
 name: Septum GABA disruption with DREADDs
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001375/draft
 version: draft
+wasGeneratedBy: []
